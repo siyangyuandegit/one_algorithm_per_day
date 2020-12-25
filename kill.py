@@ -8,7 +8,7 @@
 二号，把刀交给三号。第三个人会遵循和第一个人一样的行为，这个过程一直持续下去，直到圈子里的所有人都被kill，只剩下一个人。那这个人的标签是多少?
 
 """
-# 列表用时22.720415830612183s链表用时0.01296544075012207s
+# 列表用时22.720415830612183s链表用时0.01096544075012207s
 # 以上数据测试了10000个数据的用时
 import time
 # start = time.time()
@@ -128,7 +128,7 @@ print('头节点：',peoples.head.val)
 # 然后从头节点开始指向下下个节点。
 # cur = peoples.head
 # # while peoples.length > 1:
-# while cur.next and cur.next is not cur: # 这里使用这种判断方式比计算长度要快0.0002秒左右
+# while cur.next and cur.next is not cur: # 这里使用这种判断方式比计算长度要快0.002秒左右提升约17%
 #     cur.next, cur = cur.next.next, cur.next.next
 #     # peoples.length -= 1
 # print(cur.val)
